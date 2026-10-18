@@ -1,0 +1,41 @@
+{
+  "exported_at_utc": "2026-10-18T13:44:45.218679+00:00",
+  "source_repository": "https://github.com/kete10553-stack4/HostDealRadar-promo-radar",
+  "source_commit": "a042077fb348d9e52b4f27b12a17c1dae239a2d6",
+  "source_input_path": "data/offers.json",
+  "source_input_sha256": "006a7e02ee69cfd9ff8eb4cfe191d95cbe3067013d06c9657da40d411a027f5c",
+  "source_comparison_path": "site/compare/index.html",
+  "source_comparison_sha256": "e3dd69e5dbe5f060e5d803dde6db3f7f0d58b8b34b8f3dfa827bef027fb2fece",
+  "rows": 41,
+  "providers": 20,
+  "earliest_review_date": "2026-09-26",
+  "latest_review_date": "2026-10-16",
+  "rejected_records": [
+    {
+      "input_index": 3,
+      "reason": "not present in the published complete-plan comparison"
+    },
+    {
+      "input_index": 4,
+      "reason": "not present in the published complete-plan comparison"
+    },
+    {
+      "input_index": 8,
+      "reason": "not present in the published complete-plan comparison"
+    },
+    {
+      "input_index": 9,
+      "reason": "not present in the published complete-plan comparison"
+    },
+    {
+      "input_index": 13,
+      "reason": "not present in the published complete-plan comparison"
+    },
+    {
+      "input_index": 46,
+      "reason": "not present in the published complete-plan comparison"
+    }
+  ],
+  "selection": "Only rows present in the published complete-plan comparison, with positive source-supported first-term total, commitment and renewal monthly rate; monthly equivalent must equal the recorded total divided by the recorded term, rounded to cents.",
+  "limits": "A dated export, not a new provider-price check or live offer feed. Renewal term remains blank: an initial commitment does not establish a future renewal term. No tax or future invoice is inferred."
+}
